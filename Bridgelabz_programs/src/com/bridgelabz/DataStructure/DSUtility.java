@@ -128,7 +128,7 @@ public static Linkedlist writefile(Linkedlist wordlist) {
 		while(!wordlist.isEmpty()) {
 			bufferedWriter.write(wordlist.get()+" ");
 			bufferedWriter.flush();
-//			bufferedWriter.close();
+			bufferedWriter.close();
 		}
 	}catch(Exception e) {
 		e.printStackTrace();
@@ -142,7 +142,7 @@ public static Linkedlist writefile1(Linkedlist wordlist) {
 		while(!wordlist.isEmpty()) {
 			bufferedWriter.write(wordlist.get()+" ");
 			bufferedWriter.flush();
-//			bufferedWriter.close();
+			bufferedWriter.close();
 		}
 	}catch(Exception e) {
 		e.printStackTrace();
