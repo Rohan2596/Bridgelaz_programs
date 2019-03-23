@@ -12,10 +12,12 @@ import org.codehaus.jackson.map.ObjectMapper;
  * 
  */
 public class DataManagement {
+	
+	private static String path="/home/admin1/rohan/java/rohan/Bridgelabz_programs/src/com/bridgelabz/Oops/abc.json";
 		public static void main(String[] args) {
 			Scanner sc=new Scanner(System.in);
-			String Path="/home/admin1/rohan/java/rohan/Bridgelabz_programs/src/com/bridgelabz/Oops/abc.json";
-			File file=new File(Path);
+//			String Path="/home/admin1/rohan/java/rohan/Bridgelabz_programs/src/com/bridgelabz/Oops/abc.json";
+			File file=new File(path);
 			
 			//Printing for various INVENTORY OF GRAINS
 			//Object Mapper

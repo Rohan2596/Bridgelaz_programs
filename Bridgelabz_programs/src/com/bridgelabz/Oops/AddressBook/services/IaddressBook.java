@@ -12,7 +12,7 @@ import org.codehaus.jackson.map.JsonMappingException;
 public interface IaddressBook {
 public void createFile();
 public void addPerson(String Name) throws JsonParseException, JsonMappingException, IOException;
-
+public void search();
 public void savefile();
 public void closefile();
 public void EditPerson() throws JsonParseException, JsonMappingException, IOException;
@@ -20,4 +20,6 @@ public void SaveAs() throws JsonParseException, JsonMappingException, IOExceptio
 public void deletePerson() throws JsonParseException, JsonMappingException, IOException;
 public void openfile() throws JsonParseException, JsonMappingException, IOException;
 public void loadFileName();
+public void sortbyName();
+public void sortbyZipCode();
 }

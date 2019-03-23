@@ -5,6 +5,7 @@ public class Appointment {
 	private String patientName;
 	private  String date;
 	private String time;
+
 	public String toString() {
 		return "Doctor [name=" + DoctorName + ", Patient=" + patientName + ",Date=" +date+",time="+time+ "]";
 	}

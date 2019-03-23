@@ -31,7 +31,8 @@ public class AddressMain {
 			System.out.println("6.Delete a Person");
 			System.out.println("7.Edit a Person");
 			System.out.println("8.Save as");
-			System.out.println("9.Quit Program");
+			System.out.println("9.Sort");
+			System.out.println("10.Quit Program");
 			System.out.println("Enter the Choice:=");
 			int ch = JsonUtil.IntegerInput();
 			switch(ch)
@@ -54,6 +55,7 @@ public class AddressMain {
 						System.out.println("Enter the File Name:=>");
 						String fileName = JsonUtil.SingleStringInput();
 						implObj.addPerson(fileName);
+						implObj.sortbyName();
 						break;
 				case 6 :
 						implObj.deletePerson();
@@ -65,7 +67,24 @@ public class AddressMain {
 				case 8 :
 							implObj.SaveAs();
 							break;
-				case 9 :
+				case 9:
+					System.out.println("1.SortbyName");
+					System.out.println("2.SortbyZipCode");
+					int ch1=JsonUtil.IntegerInput();
+					switch(ch1) {
+					case 1:
+						implObj.sortbyName();
+						System.out.println("PersonSorted");
+						break;
+					case 2:
+						implObj.sortbyZipCode();
+						System.out.println("PersonSorted");
+						break;
+					default:
+						System.out.println("Invalid ");
+					}
+					break;
+				case 10 :
 					BufferedWriter bw = new BufferedWriter(new FileWriter(new File("maintainFileName.txt")));
 					for(int i=0; i<AddressBookMethods.fileList.size(); i++) {
 						bw.write(AddressBookMethods.fileList.get(i)+" ");

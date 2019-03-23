@@ -27,5 +27,6 @@ public interface IClincalManagement {
 	public void appointment() throws JsonParseException, JsonMappingException, IOException;
 	public void savefile();
 	public void createFile();
+	public void fixappoint();
 
 }

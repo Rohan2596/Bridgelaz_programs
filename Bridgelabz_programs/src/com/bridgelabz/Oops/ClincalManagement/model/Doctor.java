@@ -5,6 +5,23 @@ private String name;
 private String id;
 private String specialization;
 private String availability;
+private int amCount = 0;
+private int pmCount = 0;
+public int getAmCount() {
+    return amCount;
+}
+
+public void setAmCount(int amCount) {
+    this.amCount = amCount;
+}
+
+public int getPmCount() {
+    return pmCount;
+}
+
+public void setPmCount(int pmCount) {
+    this.pmCount = pmCount;
+}
 public String getName() {
 	return name;
 }

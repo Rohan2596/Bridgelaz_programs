@@ -50,7 +50,7 @@ public static String SingleStringInput() {
 }
 public static int IntegerInput() {
 	Scanner scanner =new Scanner(System.in);
-    System.out.println("Enter the Single String Input");
+//    System.out.println("Enter the Single String Input");
 	int Integer = scanner.nextInt();
 	return Integer ;
 }

@@ -1,1 +1,1 @@
-[{"name":"rohan3","phNumber":"4567891230","address":"berlin"}]
+[{"name":"rohan","phNumber":"789456123","address":{"city":"kochi","state":"ka","streetname":"dt","zipCode":"4200558","buildingName":"er"}},{"name":"Rohan","phNumber":"4567891330","address":{"city":"Chennai","state":"kerla","streetname":"dodo","zipCode":"500041","buildingName":"fort"}}]

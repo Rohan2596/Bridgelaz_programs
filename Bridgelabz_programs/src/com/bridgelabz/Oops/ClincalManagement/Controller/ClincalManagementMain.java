@@ -44,7 +44,9 @@ public class ClincalManagementMain {
 			break;
 		case 4:
 			System.out.println("Appointment");
+			iclinic.searchDoctorByAvailability();
 			iclinic.appointment();
+			iclinic.fixappoint();
 			break;
 		case 5:
 			System.out.println("Exit");
