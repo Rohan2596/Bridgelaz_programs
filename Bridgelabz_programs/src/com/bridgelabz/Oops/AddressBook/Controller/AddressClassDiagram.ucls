@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class-diagram version="1.2.3" icons="true" always-add-relationships="false" generalizations="true" realizations="true" 
+  associations="true" dependencies="false" nesting-relationships="true" router="FAN">  
+  <class id="1" language="java" name="com.bridgelabz.Oops.AddressBook.model.Address" project="Bridgelabz_programs" 
+    file="/Bridgelabz_programs/src/com/bridgelabz/Oops/AddressBook/model/Address.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1220" y="636"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="2" language="java" name="com.bridgelabz.Oops.AddressBook.services.IaddressBook" 
+    project="Bridgelabz_programs" 
+    file="/Bridgelabz_programs/src/com/bridgelabz/Oops/AddressBook/services/IaddressBook.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="749" y="284"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="3" language="java" name="com.bridgelabz.Oops.AddressBook.services.JsonServices" 
+    project="Bridgelabz_programs" 
+    file="/Bridgelabz_programs/src/com/bridgelabz/Oops/AddressBook/services/JsonServices.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="97" width="194" x="215" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="4" language="java" name="com.bridgelabz.Oops.AddressBook.Controller.AddressMain" 
+    project="Bridgelabz_programs" 
+    file="/Bridgelabz_programs/src/com/bridgelabz/Oops/AddressBook/Controller/AddressMain.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="97" width="199" x="449" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="5" language="java" name="com.bridgelabz.Oops.AddressBook.model.Person" project="Bridgelabz_programs" 
+    file="/Bridgelabz_programs/src/com/bridgelabz/Oops/AddressBook/model/Person.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="970" y="544"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="6" language="java" name="com.bridgelabz.Oops.AddressBook.services.Name" project="Bridgelabz_programs" 
+    file="/Bridgelabz_programs/src/com/bridgelabz/Oops/AddressBook/services/Name.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="97" width="194" x="688" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="7" language="java" name="com.bridgelabz.Oops.AddressBook.services.AddressBookMethods" 
+    project="Bridgelabz_programs" 
+    file="/Bridgelabz_programs/src/com/bridgelabz/Oops/AddressBook/services/AddressBookMethods.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="349" width="194" x="922" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="8" language="java" name="com.bridgelabz.Oops.AddressBook.services.ZipCode" project="Bridgelabz_programs" 
+    file="/Bridgelabz_programs/src/com/bridgelabz/Oops/AddressBook/services/ZipCode.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="97" width="194" x="1156" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <realization id="9">    
+    <end type="SOURCE" refId="7"/>    
+    <end type="TARGET" refId="2"/>  
+  </realization>  
+  <association id="10">    
+    <end type="SOURCE" refId="7" navigable="false">      
+      <attribute id="11" name="personArrayList"/>      
+      <multiplicity id="12" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="5" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="13">    
+    <end type="SOURCE" refId="5" navigable="false">      
+      <attribute id="14" name="address"/>      
+      <multiplicity id="15" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="1" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="16">    
+    <bendpoint x="1092" y="426"/>    
+    <end type="SOURCE" refId="7" navigable="false">      
+      <attribute id="17" name="AddressList"/>      
+      <multiplicity id="18" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="1" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+    sort-features="false" accessors="true" visibility="true">    
+    <attributes public="true" package="true" protected="true" private="true" static="true"/>    
+    <operations public="true" package="true" protected="true" private="true" static="true"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>

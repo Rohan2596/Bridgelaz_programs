@@ -173,6 +173,9 @@ public class ClincalManagementMethods implements IClincalManagement {
 			List patientFileList = objectMapper.readValue(patientFileObject, new TypeReference<List<Patient>>() {
 			});
 			patientArrayList.addAll(patientFileList);
+			for (int i = 0; i < patientArrayList.size(); i++) {
+				System.out.println(patientArrayList.get(i));
+			}
 		}
 	}
 

@@ -13,5 +13,6 @@ public class EagerInitialization {
  * Eager Initialization
  * Instance of class is Created
  * Created for resources such as File System,Database 
+ * con:-even if client application is not been used
  */
 

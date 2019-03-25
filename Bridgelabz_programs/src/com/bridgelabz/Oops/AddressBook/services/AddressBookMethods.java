@@ -27,7 +27,7 @@ public  class AddressBookMethods implements IaddressBook{
 	public static List<String> fileList = new ArrayList<>();
 	List<Person> personArrayList = new ArrayList<>();
 	List<Address> AddressList = new ArrayList<>();
-	ObjectMapper mapper= new ObjectMapper();
+
 	public void loadFileName() {
 		try {
 		BufferedReader br = new BufferedReader(new FileReader(new File("maintainFileName.txt")));
